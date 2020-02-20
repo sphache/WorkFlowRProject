@@ -22,6 +22,9 @@ p <- ggplot(data, aes(x=disp, y=hp)) +
 # add a theme
 p <- p + theme_minimal()
 
+# add a title
+p <- p + ggtitle("title")
+
 # display plot
 p
 
