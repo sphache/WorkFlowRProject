@@ -27,6 +27,12 @@ p <- p + ggtitle("title")
 
 # display plot
 p
+```
 
+### R plot for papers
+
+```{r plot-for-paper, dev=c('png', 'pdf', 'svg')}
+# plot files as png and pdf versions
+p
 ```
 
