@@ -7,7 +7,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-## How to Create a Scatter Plot (will be on menu)
+## How to Create a Scatter Plot (will be the TOC menue item)
 
 ```{r}
 library(ggplot2)
