@@ -1,0 +1,26 @@
+---
+title: "ScatterPlot"
+author: "sphache"
+date: "2020-02-20"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## How to Create a Scatter Plot (will be on menu)
+
+```{r}
+library(ggplot2)
+
+data <- mtcars
+names(data)
+
+# create plot
+p <- ggplot(data, aes(x=disp, y=hp)) +
+  geom_point()
+
+# display plot
+p
+
+```
+

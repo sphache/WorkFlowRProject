@@ -13,5 +13,6 @@ output:
   workflowr::wflow_html:
     toc: yes
     toc_float: yes
-    theme: cosmo
-    highlight: textmate
+    theme: paper
+    highlight: kate
+    
