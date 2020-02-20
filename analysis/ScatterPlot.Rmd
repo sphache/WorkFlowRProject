@@ -19,6 +19,9 @@ names(data)
 p <- ggplot(data, aes(x=disp, y=hp)) +
   geom_point()
 
+# add a theme
+p <- p + theme_minimal()
+
 # display plot
 p
 
